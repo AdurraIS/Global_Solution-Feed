@@ -4,8 +4,12 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 10vw;
-    background-color: #2A2D34;
+    padding: 0 8vw;
+    background-color: #FFA62B;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .listnavbar{
     display: flex;
@@ -15,7 +19,7 @@
 .logo{
     font-size: 25px;
     font-family: 'Libre Baskerville', serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 .itemslink{
     padding-right: 5px;

@@ -1,10 +1,11 @@
 import styles from "./menu.module.css";
+import { Link } from 'react-router-dom';
 
 export default function menu() {
     return (
       <>
       <nav class={styles.navbar}>
-        <h1 class={styles.logo}>Solution Feed</h1>
+        <Link to="/" ><h1 class={styles.logo} >Solution Feed</h1></Link>
         <ul class={styles.listnavbar}>
             <li class={styles.itemslink}> 
                 Inovações |
