@@ -1,0 +1,25 @@
+
+
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    background-color: #2A2D34;
+}
+.listnavbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+}
+.itemslink{
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
