@@ -17,19 +17,19 @@
     font-size: 30px;
     padding-top: 60px;
 }
-p{
+.section1 p{
     font-size: 20px;
     width: 40vw;
 }
 .button-home-section1{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: auto;
+    align-items: center;
     margin-top: 30px;
-    height: 50px;
-    width: 35vw;
-    border-radius: 10px;
+    height: 60px;
+    width: 30vw;
+    border-radius: 30px;
     border-width: 1px;
     border-color: #FFA62B;
     background-color: #ffef94;
