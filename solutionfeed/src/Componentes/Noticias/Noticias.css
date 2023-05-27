@@ -1,0 +1,24 @@
+.noticias{
+    padding: 0 10vw;
+}
+.post{
+    width: 60vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    height: 100%;
+    background-color: #FFA62B;
+    border-radius: 1.5rem;
+    margin-bottom:30px ;
+}
+.post h2{
+    font-weight: 100;
+}
+.post .btn{
+    background-color: black;
+    border: 1px, black;
+    padding: 6px 6px;
+    border-radius: 1.5rem;
+}

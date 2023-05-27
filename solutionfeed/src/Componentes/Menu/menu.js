@@ -14,7 +14,7 @@ export default function menu() {
                 Distribuição |
             </li>
             <li class={styles.itemslink}>
-                Noticias |
+            <Link to="/noticias" > Noticias </Link>|
             </li>
             <li class={styles.itemslink}> 
                 Contato
