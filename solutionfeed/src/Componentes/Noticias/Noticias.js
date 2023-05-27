@@ -9,7 +9,7 @@ const Noticias = () =>{
     
     const getPosts = async() => {
         try{
-            const response = await axios.get("https://newsapi.org/v2/everything?q=inovação-da-agricultura&sortBy=relevancy&apiKey=d9fde950f0c74171b93a26ad029481eb"); 
+            const response = await axios.get("https://newsapi.org/v2/everything?q=tecnologia-agricultura&sortBy=relevancy&apiKey=d9fde950f0c74171b93a26ad029481eb"); 
             const data = response.data;
             const posts = data.articles;
             setPosts(posts);
@@ -20,10 +20,7 @@ const Noticias = () =>{
     }
     
     useEffect(() => {
-        getPosts();
-        console.log(posts)
-        
-        
+        getPosts();  
     }, []);
     var total = 0;
     return <div className='noticias'>

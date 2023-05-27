@@ -17,8 +17,14 @@
     font-weight: 100;
 }
 .post .btn{
-    background-color: black;
-    border: 1px, black;
-    padding: 6px 6px;
+    color: black;
+    background-color: #fab24c;
+    padding: 6px 10px;
     border-radius: 1.5rem;
+}
+.post .btn:hover{
+    background-color: #cf8c2e;
+    border: 1px; 
+    border-style:solid;  
+    border-color: #aa7a38;
 }

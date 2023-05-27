@@ -5,7 +5,7 @@ export default function menu() {
     return (
       <>
       <nav class={styles.navbar}>
-        <Link to="/" ><h1 class={styles.logo} >Solution Feed</h1></Link>
+        <Link to="/" ><h1 class={styles.logo} >ISeed</h1></Link>
         <ul class={styles.listnavbar}>
             <li class={styles.itemslink}> 
                 Inovações |
@@ -16,8 +16,8 @@ export default function menu() {
             <li class={styles.itemslink}>
             <Link to="/noticias" > Noticias </Link>|
             </li>
-            <li class={styles.itemslink}> 
-                Contato
+            <li class={styles.itemslink}>
+              Entrar 
             </li>
         </ul>
       </nav>
